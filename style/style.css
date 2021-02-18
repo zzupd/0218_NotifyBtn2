@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+span#inboxBtn {
+    color: #fff;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    padding: 12px 24px;
+    border-radius: 2px;
+    background-color: #555555;
+
+    /*position: relative;*/
+    display: inline-block;
+}
+
+span#inboxBtn:hover {
+    background-color: #fe0000;
+}
+
+span#notifyCnt {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    background-color: #fe0000;
+    position: relative;
+    left: -20px;
+    top: -24px;
+
+    display: inline-block;
+}
+
+
